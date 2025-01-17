@@ -1,0 +1,33 @@
+:root {
+  --azul_claro: #00b1e6;
+  --fundo: #2b3233;
+  --fundo_2: #1fb1bb;
+}
+
+body {
+  background-color: var(--fundo);
+  color: white;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+main {
+  position: relative;
+  display: flex;
+  top: 50px;
+  width: 60%;
+  height: 50%;
+
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+}
+strong {
+  color: var(--azul_claro);
+}
+img {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  height: 80%;
+  align-self: auto;
+}
